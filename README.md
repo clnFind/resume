@@ -2,7 +2,6 @@
 This is my personal resume.
 
 
-效果图
---------
+#效果图
 
-.. image:: image/cln.png
+![pictures show](static/image/cln.png)
