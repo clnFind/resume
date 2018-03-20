@@ -6,4 +6,4 @@ This is my personal resume.
 
 # 效果图
 
-![pictures show](static/image/cln.png)
+![pictures show](static/image/find.png)
