@@ -13,14 +13,14 @@ if (!String.prototype.format) {
 
 
 jQuery(document).ready(function($) {
-    $(".left-label").attr('contenteditable', 'true');
-    $(".label-value").attr('contenteditable', 'true');
-    $(".info-title").attr('contenteditable', 'true');
-    $("h3").attr('contenteditable', 'true');
-    $("p").attr('contenteditable', 'true');
-    $(".right-paragraph p").attr('contenteditable', 'true');
-    $("#username").attr('contenteditable', 'true');
-    $("#persona-tag").attr('contenteditable', 'true');
+    $(".left-label").attr('contenteditable', 'false');
+    $(".label-value").attr('contenteditable', 'false');
+    $(".info-title").attr('contenteditable', 'false');
+    $("h3").attr('contenteditable', 'false');
+    $("p").attr('contenteditable', 'false');
+    $(".right-paragraph p").attr('contenteditable', 'false');
+    $("#username").attr('contenteditable', 'false');
+    $("#persona-tag").attr('contenteditable', 'false');
     //$(".info-unit ul li").append('<span class="item-remove"><i class="iconfont icon-delete"></i></span>');
     
     //$(".info-unit").filter(function(index) {
