@@ -31,9 +31,9 @@ jQuery(document).ready(function($) {
     
 
     var portrait_modal = $('[data-remodal-id=portrait-modal]').remodal();
-    $(".portrait").click(function(event) {
-        portrait_modal.open();
-    });
+    //$(".portrait").click(function(event) {
+    //    portrait_modal.open();
+    //});
     $('[data-remodal-id=portrait-modal] button').click(function(event) {
         $(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
     });
